@@ -1,8 +1,8 @@
-import { existsSync, writeFileSync } from 'fs';
-import { join } from 'path';
+const fs = require('fs');
+const path = require('path');
 
 const tasksFilePath = join(process.cwd(), 'tasks.json');
 
-if (!existsSync(tasksFilePath)) {
-  writeFileSync(tasksFilePath, JSON.stringify([]));
+if (!fs.existsSync(tasksFilePath)) {
+  fs.writeFileSync(tasksFilePath, JSON.stringify([]));
 }
