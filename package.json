@@ -1,12 +1,12 @@
 {
-  "name": "tasker",
+  "name": "tfd",
   "version": "0.0.1",
   "description": "Developer task manager. No more TODO or FIXME comments. A simple wrapper function to create tasks.",
   "main": "index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
-    "url": "https://github.com/weigriffiths/tasker"
+    "url": "https://github.com/weigriffiths/tfd"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
